@@ -1,0 +1,32 @@
+{
+  "name": "buildpspace-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "dayjs": "^1.10.7",
+    "dotenv": "^10.0.0",
+    "framer-motion": "^4.1.17",
+    "next": "11.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "autoprefixer": "^10.3.4",
+    "chai": "^4.3.4",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.4.6",
+    "hardhat": "^2.6.4",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.15"
+  }
+}
